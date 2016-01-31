@@ -1,5 +1,5 @@
 # Arch Linux container with gateone web ssh portal
-FROM greyltc/archlinux-aur
+FROM greyltc/sshd-aur
 MAINTAINER Grey Christoforo <grey@christoforo.net>
 
 # install gateone
