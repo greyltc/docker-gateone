@@ -13,7 +13,7 @@ or
 https://localhost/  
 and you should see a login page.
 1. **[Optional] Stop the gateone docker server instance**  
-`docker stop lamp`
+`docker stop gateone`
 1. **[Optional] Delete the gateone docker server instance (after stopping it)**  
-`docker rm lamp`
+`docker rm gateone`
 1. **Profit.**
