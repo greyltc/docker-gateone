@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pacman -S sl
+pacman -S sl vim
 
 su docker -c 'pacaur -S --noprogressbar --needed --noedit --noconfirm dtach mutagen python2-imaging python2-pyopenssl gateone-git'
 
