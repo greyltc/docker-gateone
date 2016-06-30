@@ -5,10 +5,10 @@ defines a docker container with gateone installed
 
 1. [**Install docker**](https://docs.docker.com/installation/)
 1. **Download and start the gateone server instance**  
-`docker run --name gateone -p 80:80 -p 443:443 -p 10443:10443 -p 2345:22 -d greyltc/gateone`
+`docker run --name gateone -p 443:10443 -p 2345:22 -d greyltc/gateone`
 1. **Test the gateone server**  
 Point your browser to:  
-https://localhost:10443/  
+https://localhost  
 and you should see a page with a big button for the Terminal:SSH application  
 1. Click the `Terminal:SSH` button
 1. Hit enter (accept the default) to choose to connect to localhost
