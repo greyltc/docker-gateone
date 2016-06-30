@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-gateone&
+gateone --port 7889&
