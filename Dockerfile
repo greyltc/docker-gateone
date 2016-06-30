@@ -8,4 +8,4 @@ RUN setup-gateone
 
 ADD run-gateone.sh /usr/bin/run-gateone
 
-CMD run-sshd && run-gateone && sleep infinity
+CMD run-sshd; run-gateone; sleep infinity
