@@ -5,11 +5,9 @@ defines a docker container with gateone installed
 
 1. [**Install docker**](https://docs.docker.com/installation/)
 1. **Download and start the gateone server instance**  
-`docker run --name gateone -p 80:80 -p 443:443 -d greyltc/gateone`
+`docker run --name gateone -p 443:443 -d greyltc/gateone`
 1. **Test the gateone server**  
 Point your browser to:  
-http://localhost/  
-or  
 https://localhost/  
 and you should see a login page.
 1. **[Optional] Stop the gateone docker server instance**  
